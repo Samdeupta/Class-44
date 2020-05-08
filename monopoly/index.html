@@ -1,0 +1,44 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBS-0sLFTn4dEgYup2at8x--9mgSpIIVwE",
+    authDomain: "monopoly-cf4a0.firebaseapp.com",
+    databaseURL: "https://monopoly-cf4a0.firebaseio.com",
+    projectId: "monopoly-cf4a0",
+    storageBucket: "monopoly-cf4a0.appspot.com",
+    messagingSenderId: "349921641183",
+    appId: "1:349921641183:web:fd842a183623c46d709f6a",
+    measurementId: "G-52BWG0QEFX"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+      <script src="sub-functions/playerInput.js"></script>
+      <script src="sub-functions/Game.js"></script>
+      <script src="sub-functions/Player.js"></script>
+  
+
+</body></html>
